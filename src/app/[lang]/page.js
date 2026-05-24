@@ -1,4 +1,4 @@
-import App from '../../components/App';
+import App from '@/components/App';
 
 export default async function LangPage({ params }) {
   const { lang } = await params;
