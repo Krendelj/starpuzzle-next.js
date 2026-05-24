@@ -7,7 +7,6 @@ import NStarCanvasProperties from './NStarCanvasProperties';
 import NStarPlot from './NStarPlot';
 import PerimeterPlotter from './PerimeterPlotter';
 import SlotsPlotter from './SlotsPlotter';
-import confettiSticker from './confetti-sticker.gif';
 
 class App extends React.Component {
 
@@ -212,7 +211,7 @@ class App extends React.Component {
 	let confetti = null, clearConfetti = null;
 	if (this.state.showConfetti) {
 	    confetti = (
-		<img src={confettiSticker} width={this.state.nStarCanvasProperties.width} //height='467.6px'
+		<img src='confetti-sticker.gif' width={this.state.nStarCanvasProperties.width} //height='467.6px'
 		     alt='confetti'
 		     style={{
 			 position: 'absolute',
